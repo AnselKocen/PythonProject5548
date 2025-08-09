@@ -21,7 +21,7 @@ st.markdown(
     """
     <style>
     img {
-        max-width: 70% !important;
+        max-width: 60% !important;
         height: auto;
         display: block;
         margin-left: auto;
