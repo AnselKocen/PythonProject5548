@@ -1,0 +1,8 @@
+streamlit>=1.33
+pandas
+numpy
+matplotlib
+Pillow
+joblib
+scikit-learn
+xgboost
