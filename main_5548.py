@@ -31,13 +31,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown(
-    """
-    # 🏦 Collateral Modeling Dashboard
-    A compact, four-tab view for your modeling outputs.  
-    Just update the file paths inside each tab.
-    """
-)
 
 # =======================================
 # Tabs
@@ -243,5 +236,5 @@ with tab5:
 
 # Footer
 st.markdown("---")
-st.caption("© Your Team • This dashboard only formats and displays your static outputs.")
+st.caption("© Ansel's Group • Demo for project using Boston house price")
 # streamlit run C:\Users\10526\PycharmProjects\PythonProject\main_5548.py
