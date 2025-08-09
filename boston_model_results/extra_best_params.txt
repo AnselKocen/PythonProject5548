@@ -1,0 +1,1 @@
+{'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__n_estimators': 200}

@@ -1,0 +1,8 @@
+enet {'model__alpha': 0.1, 'model__l1_ratio': 0.1}
+R²: 0.6995 | MSE: 22.3928 | RMSE: 4.7321
+
+extra {'model__max_depth': 10, 'model__max_features': 'sqrt', 'model__n_estimators': 200}
+R²: 0.8315 | MSE: 12.5545 | RMSE: 3.5432
+
+xgb {'model__learning_rate': 0.1, 'model__max_depth': 3, 'model__n_estimators': 200}
+R²: 0.8909 | MSE: 8.1299 | RMSE: 2.8513
