@@ -20,6 +20,59 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+    /* 整体背景 */
+    .stApp {
+        background-color: #2b2b2b;
+        color: white;
+    }
+
+    /* 所有小字、caption、标签、单选框等文字设为白色 */
+    .stMarkdown, .css-1offfwp, .css-1x8cf1d, .stCaption, .stRadio label, .stSelectbox label,
+    div[role="radiogroup"] label, div[role="checkbox"] label, p, span, label {
+        color: white !important;
+    }
+
+    /* 按钮样式 */
+    .stButton>button {
+        background-color: #262730;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid #4a4a4a;
+    }
+    .stButton>button:hover {
+        background-color: #3a3b45;
+        border: 1px solid #6a6a6a;
+    }
+
+    /* 表格样式 */
+    .stDataFrame, .dataframe {
+        background-color: #1e1e1e;
+        color: white;
+    }
+    
+    /* 代码块样式：背景深色 + 白色字体 */
+    pre, code {
+        background-color: #1e1e1e !important; /* 深色背景 */
+        color: #ffffff !important;           /* 白色字体 */
+        font-size: 14px !important;
+    }
+
+    /* 图片最大宽度 */
+    img {
+        max-width: 60% !important;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    """
+    <style>
     img {
         max-width: 60% !important;
         height: auto;
@@ -241,5 +294,5 @@ with tab5:
 
 # Footer
 st.markdown("---")
-st.caption("© Ansel's Group • Demo for project using Boston house price")
+st.caption("© Demo for project using Boston house price")
 # streamlit run C:\Users\10526\PycharmProjects\PythonProject\main_5548.py
